@@ -1,0 +1,21 @@
+/* Header/Logo Title */
+.header {
+	padding: 5px 0;
+	position: relative;
+	text-align: center;
+	background: white;
+	color: white;
+	font-size: 30px;
+	width: 100%;
+	font-family: times-new-roman;
+}
+.footer {
+	padding: 15px 0;
+	position: relative;
+	text-align: center;
+	background: white;
+	color: black;
+	font-size: 15px;
+	width: 100%;
+	font-family: times-new-roman;
+}

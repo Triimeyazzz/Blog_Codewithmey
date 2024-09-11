@@ -1,0 +1,14 @@
+.box{
+	background: pink;
+	height: 200px
+	width: 300px
+	margin: 50px
+}
+
+.box-2{
+	background: cyan;
+	height: 200px
+	width: 300px
+	margin-left: 50px
+
+}

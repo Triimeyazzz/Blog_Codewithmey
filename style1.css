@@ -1,0 +1,71 @@
+html, body{
+	padding: 0;
+	margin: 0;
+	font-family: times-new-roman;
+}
+.menuku{
+	background-color: #2F4F4F;
+	font-family: times-new-roman;
+	font-size: 18px;
+	}
+	
+.menuku ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 15px;
+	overflow: hidden;
+	}
+	
+.menuku > ul > li {
+	float: left;
+}
+
+.menuku li a{
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 18px 16px;
+	text-decoration: none;
+}
+
+.menuku li a:hover{
+	background-color: teal;
+	font-family: times-new-roman
+}
+
+	li.dropdown {
+		display: inline-block;
+}
+	.dropdown:hover .isi-dropdown{
+		display: block;
+}
+	.isi-dropdown a:hover{
+		color:white !important;
+}	
+	.isi-dropdown {
+		position: absolute;
+		display: none;
+		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0,2);
+		z-index: 1;
+		background-color:	grey;
+}
+	.isi-dropdown a {
+		color: white !important;
+}
+	.isi-dropdown a:hover {
+		color: pink !important;
+		background: 2F4F4F !important;
+}
+.content-scroll{
+	background-image:url("image/flowers4.jpg");
+	height:5800px;
+	width:1343px;
+	padding:100px 30px 30px 50px;
+	font-size: 20px;
+	font-family: Times-New-Roman;
+	color: white;
+	text-align: center;
+}
+.content-scroll p{
+	padding:10px 0px 0px 0px;
+}

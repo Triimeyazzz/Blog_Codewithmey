@@ -1,0 +1,10 @@
+.kotak{
+	background: pink;
+	position: static;
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding:20px;
+    margin-top:60px;
+}

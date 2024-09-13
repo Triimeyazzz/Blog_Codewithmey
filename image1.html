@@ -1,15 +1,16 @@
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="CSS/gabung.css">
-<link rel="stylesheet" type="text/css" href="CSS/gabung.css">
+<title>Blog | Codewithmey</title>
+<link rel="stylesheet" type="text/css" href="gabung.css">
 </head>
 <body>
 <style>
    .background{
-    background-color: #679289;
+    background: rgb(255,170,252);
+    background: linear-gradient(90deg, rgba(255,170,252,1) 17%, rgba(10,10,185,1) 54%, rgba(97,0,131,1) 77%);
    }
    .content{
-     color: #EE2E31;
+     color: #ffffff;
      text-align: center;
      padding:2px 0px;
      text-shadow: 2px 2px 2px #F4C095;
@@ -25,8 +26,8 @@
 <body>
    <div class="background">
      <div class="content">
-		<h1>*TRIMEYAZZZ*
-        <p>Welcome in Gallery Trimeyazzz<p></h1>     
+		<h1>*CODEWITHMEY*
+        <p>Welcome in My Portfolio<p></h1>     
 	</div>
    </div>
 <div class="menuku">
@@ -50,14 +51,16 @@
 	<center>**</center>
 	</header>
 <style>
-Body {background-color: #071E22;}
-p { font-size:30px; color:white; }
-   }
+Body {
+	background: rgb(2,2,89);
+	background: linear-gradient(0deg, rgba(2,2,89,1) 0%, rgba(116,13,175,1) 100%);
+  color:white;
+}
    .content{
-     color:red;
+     color:rgb(255, 255, 255);
      text-align: center;
      padding:2px 0px;
-     text-shadow: 2px 2px 2px cyan;
+     text-shadow: 2px 2px 2px rgb(172, 103, 255);
    }
    h1{
      font-size:45px;
@@ -68,21 +71,25 @@ p { font-size:30px; color:white; }
 </style>
 <style>
 div.gallery {
-    border: 1px solid #ccc;
-}
-
-div.gallery:hover {
-    border: 1px solid #777;
+    background-color: #936fff;
+    border: 0px solid;
+    border-radius: 50px;
+    overflow: hidden;
+    margin: 10px;
 }
 
 div.gallery img {
     width: 100%;
     height: auto;
+    object-fit: cover; /* Mengatur gambar agar memenuhi area dengan proporsi yang benar */
+    aspect-ratio: 16/9; 
 }
 
 div.desc {
-    padding: 15px;
+    padding: 10px;
     text-align: center;
+    color: #000000;
+    background-color: #cfb1ff;
 }
 
 * {
@@ -90,19 +97,20 @@ div.desc {
 }
 
 .responsive {
-    padding: 10px 30px;
+    padding: 10px;
     float: left;
-    width: 24.99999%;
+    width: 24.99999%; /* Setel lebar responsif untuk grid */
 }
 
-screen and (max-width: 700px){
+/* Media Queries untuk tampilan yang lebih kecil */
+@media screen and (max-width: 700px) {
     .responsive {
         width: 49.99999%;
         margin: 6px 0;
     }
 }
 
-screen and (max-width: 500px){
+@media screen and (max-width: 500px) {
     .responsive {
         width: 100%;
     }
@@ -118,86 +126,86 @@ screen and (max-width: 500px){
 <body>
 <p>
 <center>
-<h1>*GALLERY COMPUTER*</h1>
+<h1>*MY PROJECT*</h1>
 **</center>
 <br>
 <center>
 <div class="responsive">
   <div class="gallery">
-    <a target="_blank" href="image/Chrysanthemum.jpg">
-      <img src="image/Chrysanthemum.jpg" alt="Image" height="300" width="450">
+    <a target="_blank" href="project1.JPG">
+      <img src="project1.JPG" alt="Image" height="300" width="450">
     </a>
-    <div class="desc">Chrysanthemum</div>
+    <div class="desc">Aplikasi Customer Relationship Management (Laravel 11)</div>
   </div>
 </div>
 
 <div class="responsive">
   <div class="gallery">
-    <a target="_blank" href="image/Hydrangeas.jpg">
-      <img src="image/Hydrangeas.jpg" alt="Image" height="300" width="450">
+    <a target="_blank" href="project2.jfif">
+      <img src="project2.jfif" alt="Image" height="300" width="450">
     </a>
-    <div class="desc">Hydrangeas</div>
+    <div class="desc">Aplikasi Point Of Sales (POS)<br>Menggunakan Laravel 11</div>
   </div>
 </div>
 
 <div class="responsive">
   <div class="gallery">
-    <a target="_blank" href="image/Tulips.jpg">
-      <img src="image/Tulips.jpg" alt="Image" height="300" width="450">
+    <a target="_blank" href="project3.jfif">
+      <img src="project3.jfif" alt="Image" height="300" width="450">
     </a>
-    <div class="desc">Tulips</div>
+    <div class="desc">Aplikasi Toko Online <br> Menggunakan CodeIgniter 3</div>
   </div>
 </div>
 
 <div class="responsive">
   <div class="gallery">
-    <a target="_blank" href="image/Lighthouse.jpg">
-      <img src="image/Lighthouse.jpg" alt="Image" height="300" width="450">
+    <a target="_blank" href="project4.JPG">
+      <img src="project4.JPG" alt="Image" height="300" width="450">
     </a>
-    <div class="desc">Lighthouse</div>
+    <div class="desc">Website Portfolio Menggunakan<br>Bahasa Html, Css, Javascript</div>
   </div>
 </div>
 
 <div class="responsive">
   <div class="gallery">
-    <a target="_blank" href="image/Jellyfish.jpg">
-      <img src="image/Jellyfish.jpg" alt="Image" height="300" width="450">
+    <a target="_blank" href="project5.JPG">
+      <img src="project5.JPG" alt="Image" height="300" width="450">
     </a>
-    <div class="desc">Jellyfish</div>
+    <div class="desc">App Alarm Custom<br>with Html, Css, Javascript</div>
   </div>
 </div>
 
 <div class="responsive">
   <div class="gallery">
-    <a target="_blank" href="image/Koala.jpg">
-      <img src="image/Koala.jpg" alt="Image" height="300" width="450">
+    <a target="_blank" href="project6.JPG">
+      <img src="project6.JPG" alt="Image" height="300" width="450">
     </a>
-    <div class="desc">Koala</div>
+    <div class="desc">Game Fishbowl (Save Fish)<br>with Html, Css, Javascript</div>
   </div>
 </div>
 
 <div class="responsive">
   <div class="gallery">
-    <a target="_blank" href="image/Penguins.jpg">
-      <img src="image/Penguins.jpg" alt="Image" height="300" width="450">
+    <a target="_blank" href="project7.JPG">
+      <img src="project7.JPG" alt="Image" height="300" width="450">
     </a>
-    <div class="desc">Penguins</div>
+    <div class="desc">Game Piano Sederhana<br>with Html, Css, Javascript</div>
   </div>
 </div>
 
 <div class="responsive">
   <div class="gallery">
-    <a target="_blank" href="image/Desert.jpg">
-      <img src="image/Desert.jpg" alt="Image" height="300" width="450">
+    <a target="_blank" href="Desert.jpg">
+      <img src="Desert.jpg" alt="Image" height="300" width="450">
     </a>
     <div class="desc">Desert</div>
   </div>
 </div>
-
+<!-- 
 <div class="responsive">
   <div class="gallery">
-    <a target="_blank" href="image/imai1.jpg">
-      <img src="image/imai1.jpg" alt="Image" height="300" width="450">
+    <a target="_blank" href="imai1.jpg">
+      <img src="imai1.jpg" alt="Image" height="300" width="450">
     </a>
     <div class="desc">Pemandangan</div>
   </div>
@@ -205,8 +213,8 @@ screen and (max-width: 500px){
 
 <div class="responsive">
   <div class="gallery">
-    <a target="_blank" href="image/Tulips.jpg">
-      <img src="image/Tulips.jpg" alt="Image" height="300" width="450">
+    <a target="_blank" href="Tulips.jpg">
+      <img src="Tulips.jpg" alt="Image" height="300" width="450">
     </a>
     <div class="desc">Tulips</div>
   </div>
@@ -214,8 +222,8 @@ screen and (max-width: 500px){
 
 <div class="responsive">
   <div class="gallery">
-    <a target="_blank" href="image/Hydrangeas.jpg">
-      <img src="image/Hydrangeas.jpg" alt="Image" height="300" width="450">
+    <a target="_blank" href="Hydrangeas.jpg">
+      <img src="Hydrangeas.jpg" alt="Image" height="300" width="450">
     </a>
     <div class="desc">Hydrangeas</div>
   </div>
@@ -223,12 +231,12 @@ screen and (max-width: 500px){
 
 <div class="responsive">
   <div class="gallery">
-    <a target="_blank" href="image/Chrysanthemum.jpg">
-      <img src="image/Chrysanthemum.jpg" alt="Image" height="300" width="450">
+    <a target="_blank" href="Chrysanthemum.jpg">
+      <img src="Chrysanthemum.jpg" alt="Image" height="300" width="450">
     </a>
     <div class="desc">Chrysanthemum</div>
   </div>
-</div>
+</div> -->
 </center>
 <div class="clearfix"></div>
 <br><br>
@@ -280,15 +288,15 @@ screen and (max-width: 500px){
     clear: both;
 }
 </style>
-<center>**
+<!-- <center>**
 <h1>*MY GALLERY*</h1>
 **</center>
 <br><br>
 <center>
 <div class="responsive">
   <div class="gallery">
-    <a target="_blank" href="image/imai20.jpg">
-      <img src="image/imai20.jpg" alt="Image" height="300" width="450">
+    <a target="_blank" href="imai20.jpg">
+      <img src="imai20.jpg" alt="Image" height="300" width="450">
     </a>
     <div class="desc">Poto Random</div>
   </div>
@@ -296,8 +304,8 @@ screen and (max-width: 500px){
 
 <div class="responsive">
   <div class="gallery">
-    <a target="_blank" href="image/imai18.jpg">
-      <img src="image/imai18.jpg" alt="Image" height="300" width="450">
+    <a target="_blank" href="imai18.jpg">
+      <img src="imai18.jpg" alt="Image" height="300" width="450">
     </a>
     <div class="desc">Pas Nari</div>
   </div>
@@ -306,8 +314,8 @@ screen and (max-width: 500px){
 
 <div class="responsive">
   <div class="gallery">
-    <a target="_blank" href="image/imai19.jpg">
-      <img src="image/imai19.jpg" alt="Image" height="300" width="450">
+    <a target="_blank" href="imai19.jpg">
+      <img src="imai19.jpg" alt="Image" height="300" width="450">
     </a>
     <div class="desc">SMKI Utama</div>
   </div>
@@ -315,8 +323,8 @@ screen and (max-width: 500px){
 
 <div class="responsive">
   <div class="gallery">
-    <a target="_blank" href="image/imai14.jpg">
-      <img src="image/imai14.jpg" alt="Image" height="300" width="450">
+    <a target="_blank" href="imai14.jpg">
+      <img src="imai14.jpg" alt="Image" height="300" width="450">
     </a>
     <div class="desc">Mirror Selfi</div>
   </div>
@@ -324,8 +332,8 @@ screen and (max-width: 500px){
 
 <div class="responsive">
   <div class="gallery">
-    <a target="_blank" href="image/imai13.jpg">
-      <img src="image/imai13.jpg" alt="Image" height="300" width="450">
+    <a target="_blank" href="imai13.jpg">
+      <img src="imai13.jpg" alt="Image" height="300" width="450">
     </a>
     <div class="desc">My Art</div>
   </div>
@@ -333,8 +341,8 @@ screen and (max-width: 500px){
 
 <div class="responsive">
   <div class="gallery">
-    <a target="_blank" href="image/imai11.jpg">
-      <img src="image/imai11.jpg" alt="Image" height="300" width="450">
+    <a target="_blank" href="imai11.jpg">
+      <img src="imai11.jpg" alt="Image" height="300" width="450">
     </a>
     <div class="desc">Pas Ke Lampung</div>
   </div>
@@ -342,8 +350,8 @@ screen and (max-width: 500px){
 
 <div class="responsive">
   <div class="gallery">
-    <a target="_blank" href="image/imai21.jpg">
-      <img src="image/imai21.jpg" alt="Image" height="300" width="450">
+    <a target="_blank" href="imai21.jpg">
+      <img src="imai21.jpg" alt="Image" height="300" width="450">
     </a>
     <div class="desc">MPLS</div>
   </div>
@@ -351,8 +359,8 @@ screen and (max-width: 500px){
 
 <div class="responsive">
   <div class="gallery">
-    <a target="_blank" href="image/imai8.jpg">
-      <img src="image/imai8.jpg" alt="Image" height="300" width="450">
+    <a target="_blank" href="imai8.jpg">
+      <img src="imai8.jpg" alt="Image" height="300" width="450">
     </a>
     <div class="desc">Lukisan Pertama</div>
   </div>
@@ -360,8 +368,8 @@ screen and (max-width: 500px){
 
 <div class="responsive">
   <div class="gallery">
-    <a target="_blank" href="image/imai9.jpg">
-      <img src="image/imai9.jpg" alt="Image" height="300" width="450">
+    <a target="_blank" href="imai9.jpg">
+      <img src="imai9.jpg" alt="Image" height="300" width="450">
     </a>
     <div class="desc">Poster Pertama</div>
   </div>
@@ -369,8 +377,8 @@ screen and (max-width: 500px){
 
 <div class="responsive">
   <div class="gallery">
-    <a target="_blank" href="image/imai12.jpg">
-      <img src="image/imai12.jpg" alt="Image" height="300" width="450">
+    <a target="_blank" href="imai12.jpg">
+      <img src="imai12.jpg" alt="Image" height="300" width="450">
     </a>
     <div class="desc">Kerkom</div>
   </div>
@@ -378,8 +386,8 @@ screen and (max-width: 500px){
 
 <div class="responsive">
   <div class="gallery">
-    <a target="_blank" href="image/imai6.jpg">
-      <img src="image/imai6.jpg" alt="Image" height="300" width="450">
+    <a target="_blank" href="imai6.jpg">
+      <img src="imai6.jpg" alt="Image" height="300" width="450">
     </a>
     <div class="desc">Lukisan Ballet</div>
   </div>
@@ -387,8 +395,8 @@ screen and (max-width: 500px){
 
 <div class="responsive">
   <div class="gallery">
-    <a target="_blank" href="image/imai5.jpg">
-      <img src="image/imai5.jpg" alt="Image" height="300" width="450">
+    <a target="_blank" href="imai5.jpg">
+      <img src="imai5.jpg" alt="Image" height="300" width="450">
     </a>
     <div class="desc">My Self</div>
   </div>
@@ -396,8 +404,8 @@ screen and (max-width: 500px){
 
 <div class="responsive">
   <div class="gallery">
-    <a target="_blank" href="image/ldks.jpg">
-      <img src="image/ldks.jpg" alt="Image" height="300" width="450">
+    <a target="_blank" href="ldks.jpg">
+      <img src="ldks.jpg" alt="Image" height="300" width="450">
     </a>
     <div class="desc">LDKS</div>
   </div>
@@ -405,8 +413,8 @@ screen and (max-width: 500px){
  
   <div class="responsive">
   <div class="gallery">
-    <a target="_blank" href="image/imay.jpg">
-      <img src="image/imay1.jpg" alt="Image" height="300" width="450">
+    <a target="_blank" href="imay.jpg">
+      <img src="imay1.jpg" alt="Image" height="300" width="450">
     </a>
     <div class="desc">Di Pulau Burung</div>
   </div>
@@ -414,8 +422,8 @@ screen and (max-width: 500px){
 
 <div class="responsive">
   <div class="gallery">
-    <a target="_blank" href="image/imai3.jpg">
-      <img src="image/imai3.jpg" alt="Image" height="300" width="450">
+    <a target="_blank" href="imai3.jpg">
+      <img src="imai3.jpg" alt="Image" height="300" width="450">
     </a>
     <div class="desc">Lukisan Tugas Seni Budaya 9'1</div>
   </div>
@@ -423,8 +431,8 @@ screen and (max-width: 500px){
 
 <div class="responsive">
   <div class="gallery">
-    <a target="_blank" href="image/imai7.jpg">
-      <img src="image/imai7.jpg" alt="Image" height="300" width="450">
+    <a target="_blank" href="imai7.jpg">
+      <img src="imai7.jpg" alt="Image" height="300" width="450">
     </a>
     <div class="desc">Lukisan Tugas Seni Budaya 9'1</div>
   </div>
@@ -432,8 +440,8 @@ screen and (max-width: 500px){
 
 <div class="responsive">
   <div class="gallery">
-    <a target="_blank" href="image/imay3.jpg">
-      <img src="image/imay3.jpg" alt="Image" height="300" width="450">
+    <a target="_blank" href="imay3.jpg">
+      <img src="imay3.jpg" alt="Image" height="300" width="450">
     </a>
     <div class="desc">Difotoin Temen</div>
   </div>
@@ -441,8 +449,8 @@ screen and (max-width: 500px){
 
 <div class="responsive">
   <div class="gallery">
-    <a target="_blank" href="image/imay2.jpg">
-      <img src="image/imay2.jpg" alt="Image" height="300" width="450">
+    <a target="_blank" href="imay2.jpg">
+      <img src="imay2.jpg" alt="Image" height="300" width="450">
     </a>
     <div class="desc">Quotes dari Pak Shobah</div>
   </div>
@@ -450,8 +458,8 @@ screen and (max-width: 500px){
 
 <div class="responsive">
   <div class="gallery">
-    <a target="_blank" href="image/imay5.jpg">
-      <img src="image/imay5.jpg" alt="Image" height="300" width="450">
+    <a target="_blank" href="imay5.jpg">
+      <img src="imay5.jpg" alt="Image" height="300" width="450">
     </a>
     <div class="desc">My Quotes</div>
   </div>
@@ -459,98 +467,19 @@ screen and (max-width: 500px){
 
 <div class="responsive">
   <div class="gallery">
-    <a target="_blank" href="image/imey2.jpg">
-      <img src="image/imey2.jpg" alt="Image" height="300" width="450">
+    <a target="_blank" href="imey2.jpg">
+      <img src="imey2.jpg" alt="Image" height="300" width="450">
     </a>
     <div class="desc">Quotes Islami</div>
   </div>
 </div>
 </center>
 
-<div class="clearfix"></div>
-<br><br>
-<center>**
-<h1>*DESIGN*</h1>
-**</center>
-<br><br>
-<center>
-<div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="image/Sustak1.jpg">
-      <img src="image/Sustak1.jpg" alt="Image" height="300" width="450">
-    </a>
-    <div class="desc">Susu Kotak</div>
-  </div>
-</div>
-
-<div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="image/Logobelumkelar.jpg">
-      <img src="image/Logobelumkelar.jpg" alt="Image" height="300" width="450">
-    </a>
-    <div class="desc">Logo Belum Selesai</div>
-  </div>
-</div>
-
-<div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="image/Telkomsel1.jpg">
-      <img src="image/Telkomsel1.jpg" alt="Image" height="300" width="450">
-    </a>
-    <div class="desc">Logo Telkomsel</div>
-  </div>
-</div>
-
-<div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="image/imei11.jpg">
-      <img src="image/imei11.jpg" alt="Image" height="300" width="450">
-    </a>
-    <div class="desc">Logo YBM</div>
-  </div>
-</div>
-
-<div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="image/imei10.jpg">
-      <img src="image/imei10.jpg" alt="Image" height="300" width="450">
-    </a>
-    <div class="desc">Baju Gaun</div>
-  </div>
-</div>
-
-<div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="image/imei9.jpg">
-      <img src="image/imei9.jpg" alt="Image" height="300" width="450">
-    </a>
-    <div class="desc">FlashDisk</div>
-  </div>
-</div>
-
-<div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="image/imei3.jpg">
-      <img src="image/imei3.jpg" alt="Image" height="300" width="450">
-    </a>
-    <div class="desc">Kartu Pekerja</div>
-  </div>
-</div>
-
-<div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="image/BajuBatik.jpg">
-      <img src="image/BajuBatik.jpg" alt="Image" height="300" width="450">
-    </a>
-    <div class="desc">Baju Batik</div>
-  </div>
-</div>
-
-<div class="clearfix"></div>
+<div class="clearfix"></div> -->
 	<br><br><br>
 <div class="footer">
-	<h1>TERIMAKASIH ATAS KUNJUNGAN ANDA</h1>
-	<h1>SYUKRON:)<h1>
+	<h3>TERIMAKASIH ATAS KUNJUNGAN ANDA</h3>
+	<h3>SYUKRON:)<h3>
 	</div>
 </body>
 </html>
